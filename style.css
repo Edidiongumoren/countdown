@@ -5,6 +5,7 @@
 #test { width:  100%; border: 1px solid; word-wrap: break-word; }
 .header {
   display: flex;
+  height: 300;
 }
   
 .logo {
