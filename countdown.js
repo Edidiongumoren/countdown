@@ -1,3 +1,6 @@
+window.onresize = function(event) {
+    document.getElementById('test').style.fontSize = (document.width * 0.1)+'px'
+}
 const targetDate = new Date();
 targetDate.setHours(targetDate.getHours() + 5);
 
