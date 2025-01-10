@@ -3,6 +3,13 @@
 }
 
 #test { width:  100%; border: 1px solid; word-wrap: break-word; }
+.header {
+  display: flex;
+  
+.logo {
+  width: 50px;
+  height: 550px;
+  
 .countdown {
   margin: 100px auto;
   width: 50%;
