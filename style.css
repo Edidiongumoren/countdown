@@ -5,21 +5,52 @@
 #test { width:  100%; border: 1px solid; word-wrap: break-word; }
 .header {
   display: flex;
-  height: 300;
+  height: 200px;
+  margin-top: 0px;
+
 }
   
 .logo {
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
   
+}
+
+.attention {
+  margin-top: 0;
+  display: flex;
+  justify-items: center;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
+  font-family: Franklin Gothic Medium;
+
+  
+  
+  
+  
+}
+
+.interns {
+  font-size: 50px;
+  color: #330066;
+  margin-bottom: 15px;
+  
+  
+}
+
+.phase {
+  font-size: 35px;
+  font-weight: bold;
 }
   
 .countdown {
-  margin: 100px auto;
+  margin: 50px auto;
+  
   width: 50%;
   display: flex;
   gap: 30px;
-  font-family: sans-serif;
+  font-family: Franklin Gothic Medium;
   justify-content: center;
 }
 
@@ -57,13 +88,13 @@
 .segment-display__top {
   line-height: 1.5;
   color: #eee;
-  background-color: #111;
+  background-color: #330066;
 }
 
 .segment-display__bottom {
   line-height: 0;
   color: #fff;
-  background-color: #333;
+  background-color: #45008a;
 }
 
 .segment-overlay {
@@ -87,7 +118,7 @@
   top: 0;
   line-height: 1.5;
   color: #fff;
-  background-color: #111;
+  background-color: #330066;
   transform-origin: bottom;
 }
 
@@ -95,7 +126,7 @@
   bottom: 0;
   line-height: 0;
   color: #eee;
-  background-color: #333;
+  background-color: #45008a;
   border-top: 2px solid black;
   transform-origin: top;
 }
