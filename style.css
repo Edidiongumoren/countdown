@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-
+#test { width:  100%; border: 1px solid; word-wrap: break-word; }
 .countdown {
   margin: 100px auto;
   width: 50%;
