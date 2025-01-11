@@ -1,8 +1,7 @@
 window.onresize = function(event) {
     document.getElementById('test').style.fontSize = (document.width * 0.1)+'px'
 }
-const targetDate = new Date();
-targetDate.setHours(targetDate.getHours() + 5);
+const targetDate = '2025-01-11T14:00:00';
 
 function getTimeSegmentElements(segmentElement) {
   const segmentDisplay = segmentElement.querySelector(
